@@ -1,75 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<cabeça>
+<head>
     <meta charset="UTF-8">
-    <meta nome="viewport" conteúdo="width=device-width, initial-scale=1.0">
-    <título>Empresa XYZ</título>
-    <link rel="folha de estilo" href="estilos.css">
-</cabeça>
-<corpo>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa XYZ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <!-- Cabeçalho -->
-    <cabeçalho>
-        <div classe="contêiner">
-            <div classe="logotipo">
+    <header>
+        <div class="container">
+            <div class="logo">
                 <h1>Empresa XYZ</h1>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#casa">Início</a></li>
+                    <li><a href="#home">Início</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#portfólio">Portfólio</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
                     <li><a href="#depoimentos">Depoimentos</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
-    </cabeçalho>
+    </header>
 
-    <!-- Ação Hero -->
-    <seção ue="casa" classe="herói">
-        <div classe="conteúdo de herói">
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
             <h2>Transformando Ideias em Resultados</h2>
             <p>Somos especialistas em criar soluções inovadoras para empresas de todos os tamanhos.</p>
-            <a href="#contato" classe="btn">Entre em Contato</a>
+            <a href="#contato" class="btn">Entre em Contato</a>
         </div>
-    </seção>
+    </section>
 
     <!-- Sobre a Empresa -->
-    <seção ue="sobre" classe="seção sobre">
-        <div classe="contêiner">
+    <section id="sobre" class="section about">
+        <div class="container">
             <h2>Sobre Nós</h2>
-            <p>Com mais de 10 anos de experiência, uma Empresa XYZ é líder em soluções tecnológicas e de consultoria. Nossa missão é fornecer resultados excepcionais para nossos clientes, com soluções personalizadas e de alta qualidade.</p>
+            <p>Com mais de 10 anos de experiência, a Empresa XYZ é líder em soluções tecnológicas e de consultoria. Nossa missão é fornecer resultados excepcionais para nossos clientes, com soluções personalizadas e de alta qualidade.</p>
         </div>
-    </seção>
+    </section>
 
     <!-- Serviços -->
-    <seção ue="servicos" classe="serviços de seleção">
-        <div classe="contêiner">
+    <section id="servicos" class="section services">
+        <div class="container">
             <h2>Serviços</h2>
-            <div classe="grade de serviços">
-                <div classe="cartão de serviço">
+            <div class="services-grid">
+                <div class="service-card">
                     <h3>Consultoria Empresarial</h3>
-                    <p>Oferenciais consultoria estratégica para melhorar a performance e os resultados da sua empresa.</p>
+                    <p>Oferecemos consultoria estratégica para melhorar a performance e os resultados da sua empresa.</p>
                 </div>
-                <div classe="cartão de serviço">
+                <div class="service-card">
                     <h3>Desenvolvimento Web</h3>
-                    <p>Criamos sites e plataformas digitais modernas e responsabilidades, adaptadas às necessidades do seu negócio.</p>
+                    <p>Criamos websites e plataformas digitais modernas e responsivas, adaptadas às necessidades do seu negócio.</p>
                 </div>
-                <div classe="cartão de serviço">
+                <div class="service-card">
                     <h3>Marketing Digital</h3>
-                    <p>Ajudantes a expandir sua presença online com estrategias de SEO, anúncios pagãos e marketing de mídia social.</p>
+                    <p>Ajudamos a expandir sua presença online com estratégias de SEO, anúncios pagos e social media marketing.</p>
                 </div>
             </div>
         </div>
-    </seção>
+    </section>
 
     <!-- Portfólio -->
-    <seção ue="portfólio" classe="carteira de sessões">
-        <div classe="contêiner">
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
             <h2>Portfólio</h2>
-            <div classe="galeria-portfólio">
-                <div classe="item-portfólio">
+            <div class="portfolio-gallery">
+                <div class="portfolio-item">
                     <img src="https://via.placeholder.com/400" alt="Projeto 1">
                     <p>Projeto 1</p>
                 </div>
@@ -103,7 +103,7 @@
     </seção>
 
     <!-- Contato -->
-  <formulário ação="https://formspree.io/f/mgvozvkw" método="POST">
+<formulário ação="https://formspree.io/f/mgvozvkw" método="POST">
     <etiqueta par="nome">Nome:</etiqueta>
     <entrada tipo="texto" ue="nome" nome="nome" requerido>
 
@@ -114,9 +114,7 @@
     <área de texto ue="mensagem" nome="mensagem" requerido></área de texto>
 
     <botão tipo="enviar">Enviar</botão>
-     </formulário> 
- </div>
- </seção>
+</formulário>
 
     <!-- Rodapé -->
     <rodapé>
@@ -128,5 +126,3 @@
     <roteiro src="script.js"></roteiro>
 </corpo>
 </html>
-
-
